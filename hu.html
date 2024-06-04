@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>简单的前端表单界面</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #02d0f4;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background-color: #cfe40b;
+        }
+    </style>
+</head>
+<body>
+    <form action="/submit_form" method="post">
+        <label for="username">用户名:</label>
+        <input type="text" id="username" name="username" required>
+        <button type="submit">提交</button>
+    </form>
+</body>
+<head>
+    <style>
+        body {
+            background-color: rgb(132, 232, 244);
+        }
+        h1 {
+            color: rgb(243, 212, 165);
+        }
+    </style>
+</head>
+</html>
